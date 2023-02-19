@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+   background-color: #7876;
+   width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+.container button{
+    padding: 5px;
+    margin-top: 10px;
+    border: #000;
+    border-radius: 05px;
+    background: lightskyblue;
+}
+.container p{
+    margin-top: 7px;
+    font-size: 1rem;
+    padding: 7S;
+    background: rgb(124, 113, 113);
+    color: #fff;
+} 
